@@ -1,3 +1,11 @@
+import { Layout } from "src/components";
+
 export function Home() {
-    return <h1>Home</h1>;
+    return (
+        <Layout>
+            <div className="bg-white">
+                <h1>Home</h1>
+            </div>
+        </Layout>
+    );
 }
