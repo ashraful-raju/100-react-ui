@@ -4,7 +4,7 @@ import { Layout, MagicWindSvg } from "src/components";
 export function Home() {
     return (
         <Layout>
-            <section className="bg-white rounded-md container mx-auto lg:mt-20 transform duration-500 p-10 mt-10">
+            <section className="bg-white rounded-md container mx-auto lg:mt-20 transform duration-500 p-10 sm:mt-10">
                 <div className="w-12 h-12 rounded-xl bg-gradient-to-br flex items-center justify-center from-cyan-400 to-cyan-900 mb-8">
                     <MagicWindSvg />
                 </div>
@@ -43,7 +43,7 @@ export function Home() {
             </section>
 
             <section className="rounded-md container mx-auto lg:mt-20 transform duration-500 mt-10">
-                <h1 className="my-5 text-3xl text-slate-800 font-bold">
+                <h1 className="my-5 text-4xl text-center text-slate-800 font-bold">
                     UI Lists
                 </h1>
             </section>

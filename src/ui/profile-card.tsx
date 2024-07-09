@@ -2,24 +2,25 @@ import { UiLayout } from "src/components";
 
 export function ProfileCard() {
     return (
-        <UiLayout className="bg-orange-200 text-center">
+        <UiLayout className="bg-orange-200  text-center">
             {/* card start */}
-            <div className="bg-white w-auto mx-52 h-auto border rounded-md text-center ali">
+            <div className="bg-white sm:w-96 w-full mx-auto h-auto border rounded-md text-center">
                 <h1 className="pt-2 text-2xl">ProfileCard</h1>
                 <div className="border-b px-4 pb-6">
                     <div className="text-center my-4">
                         {/* image section start */}
-                        <img
-                            className="h-48 w-40 rounded-full border-white  mx-auto my-4"
-                            src="/public/14.jpg"
-                            alt=""
-                        ></img>
+                        <div className="h-40 w-40 rounded-full border-white  mx-auto my-4 overflow-hidden">
+                            <img src="/14.jpg" alt="user" />
+                        </div>
                         {/* image section end */}
                         {/* identify section start */}
                         <div className="py-2">
                             <h2 className="font-bold text-2xl text-gray-800  mb-1">
                                 ASHRAFUL ALAM
                             </h2>
+                            <h3 className="font-semibold text-lg text-gray-600 my-2">
+                                (Sofware Engineer)
+                            </h3>
                             <div className="inline-flex text-gray-700  items-center">
                                 <svg
                                     className=" text-gray-400 mr-1"
@@ -40,26 +41,26 @@ export function ProfileCard() {
                         {/* identify section end */}
                     </div>
                     {/* actions section start */}
-                    <div className="flex gap-2 px-2">
+                    <div className="flex justify-center gap-2 mx-auto px-auto">
                         <button className="flex-1 rounded-full bg-blue-600 text-white px-4 py-2">
                             Follow
                         </button>
-                        <button className="flex-1 rounded-full border-2 border-gray-400 px-4 py-2">
+                        <button className="flex-1 bg-gray-200 rounded-full border-2 border-gray-800 px-4 py-2">
                             Message
                         </button>
                     </div>
                     {/* actions section end */}
                 </div>
                 {/* footer section start */}
-                <div className="px-4 py-4 ">
+                <div className="mx-auto px-5 items-center">
                     <div className=" mb-4 items-center text-gray-800 ">
                         <span className="">
                             <strong className="text-black ">12</strong>{" "}
                             Followers you know
                         </span>
                     </div>
-                    <div className="flex">
-                        <div className="flex justify-end pl-10 mr-2">
+                    <div className="flex justify-center">
+                        <div className="flex justify-center mx-auto pb-3">
                             <img
                                 className="border-2 border-white rounded-full h-10 w-10 -mr-2"
                                 src="https://randomuser.me/api/portraits/men/32.jpg"
