@@ -1,4 +1,4 @@
-import { ProfileCard } from "src/ui";
+import { ProfileCard, ShoppingCard } from "src/ui";
 import { Layout, MagicWindSvg } from "src/components";
 
 export function Home() {
@@ -49,6 +49,8 @@ export function Home() {
             </section>
 
             <ProfileCard />
+
+            <ShoppingCard />
         </Layout>
     );
 }

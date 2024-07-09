@@ -2,10 +2,9 @@ import { UiLayout } from "src/components";
 
 export function ProfileCard() {
     return (
-        <UiLayout className="bg-orange-200  text-center">
+        <UiLayout className="bg-indigo-100  text-center">
             {/* card start */}
             <div className="bg-white sm:w-96 w-full mx-auto h-auto border rounded-md text-center">
-                <h1 className="pt-2 text-2xl">ProfileCard</h1>
                 <div className="border-b px-4 pb-6">
                     <div className="text-center my-4">
                         {/* image section start */}
