@@ -1,8 +1,8 @@
-import { UiLayout } from "src/components";
+import { Layout } from "src/components";
 
 export function ProfileCard() {
     return (
-        <UiLayout className="bg-indigo-100  text-center">
+        <Layout title="Profile card" className="bg-indigo-100  text-center">
             {/* card start */}
             <div className="bg-white sm:w-96 w-full mx-auto h-auto border rounded-md text-center">
                 <div className="border-b px-4 pb-6">
@@ -99,6 +99,6 @@ export function ProfileCard() {
                 {/* footer section end */}
             </div>
             {/* card end */}
-        </UiLayout>
+        </Layout>
     );
 }

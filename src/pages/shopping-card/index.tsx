@@ -1,9 +1,9 @@
-import { UiLayout } from "src/components";
+import { Layout } from "src/components";
 
 export function ShoppingCard() {
     return (
-        <UiLayout>
-            <div className="bg-slate-50 py-8">
+        <Layout title="Shopping card">
+            <div className="bg-white rounded-md py-8">
                 <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col md:flex-row -mx-4">
                         <div className="md:flex-1 px-4">
@@ -109,6 +109,6 @@ export function ShoppingCard() {
                     </div>
                 </div>
             </div>
-        </UiLayout>
+        </Layout>
     );
 }
