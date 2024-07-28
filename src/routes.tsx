@@ -1,5 +1,5 @@
 import { RouteObject } from "react-router-dom";
-import { UserInput, ProfileCard, ShoppingCard } from "./pages";
+import { UserInput, ProfileCard, ShoppingCard, HoverMe } from "./pages";
 
 type RouteItem = RouteObject & {
     name: string;
@@ -17,5 +17,10 @@ export const routes: RouteItem[] = [
         name: "Animated user input",
         path: "/user-input",
         element: <UserInput />,
+    },
+    {
+        name: "Hover Me Card",
+        path: "/hoverMe-card",
+        element: <HoverMe />,
     },
 ];
