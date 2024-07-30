@@ -18,7 +18,7 @@ export function Layout({
             >
                 <div className="mt-4">
                     <div className="flex pl-4 items-center gap-1 text-xs font-light">
-                        <Link to="/" className="underline">
+                        <Link to="/" className="underline text-blue-700">
                             Back to Home
                         </Link>
                         <span>|</span>

@@ -1,5 +1,12 @@
 import { RouteObject } from "react-router-dom";
-import { UserInput, ProfileCard, ShoppingCard, HoverMe } from "./pages";
+import {
+    UserInput,
+    ProfileCard,
+    ShoppingCard,
+    HoverMe,
+    ContactUs,
+} from "./pages";
+import CakeRecipe from "./pages/recipe-card";
 
 type RouteItem = RouteObject & {
     name: string;
@@ -22,5 +29,15 @@ export const routes: RouteItem[] = [
         name: "Hover Me Card",
         path: "/hoverMe-card",
         element: <HoverMe />,
+    },
+    {
+        name: "Contact Us",
+        path: "/contact-form",
+        element: <ContactUs />,
+    },
+    {
+        name: "Cake Recipe",
+        path: "/recipe-card",
+        element: <CakeRecipe />,
     },
 ];
